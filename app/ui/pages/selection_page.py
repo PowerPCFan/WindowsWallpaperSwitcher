@@ -25,14 +25,12 @@ class WallpaperSelectionPage(QWidget):
         button_layout = QHBoxLayout()
 
         self.back_button = QPushButton("Back")
-        self.back_button.setStyleSheet("padding: 6px 12px;")
         self.back_button.clicked.connect(self.go_back)
         button_layout.addWidget(self.back_button)
 
         button_layout.addStretch()
 
         self.apply_button = QPushButton("Apply")
-        self.apply_button.setStyleSheet("padding: 6px 12px;")
         button_layout.addWidget(self.apply_button)
 
         layout.addLayout(button_layout)
