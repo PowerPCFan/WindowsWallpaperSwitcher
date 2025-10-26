@@ -5,8 +5,8 @@
 #include <QDir>
 #include <QMessageBox>
 #include <QUrl>
-// #include <windows.h>
-#include <winuser.h>
+#include <windows.h>
+// #include <winuser.h>
 
 std::string getTempPath() {
     const char* temp = std::getenv("TEMP");
