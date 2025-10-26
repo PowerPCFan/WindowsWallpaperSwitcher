@@ -1,0 +1,12 @@
+{
+    "cmake.configureOnOpen": true,
+    "cmake.buildDirectory": "${workspaceFolder}/build",
+    "cmake.generator": "MinGW Makefiles",
+    "cmake.cmakePath": "C:/Qt/Tools/CMake_64/bin/cmake.exe",
+    "cmake.additionalCompilerSearchDirs": [
+        "C:/Qt/Tools/mingw1310_64"
+    ],
+    "cmake.environment": {
+        "CMAKE_PREFIX_PATH": "C:/Qt/6.9.3/mingw_64"
+    }
+}
